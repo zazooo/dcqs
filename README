@@ -4,3 +4,7 @@ Never close the browser by mistake again. dcqs is a Firefox add-on for
 Linux builds that disables the Ctrl-Q and Ctrl+Shift+W shortcuts.
 
 https://addons.mozilla.org/addon/disable-ctrl-q-shortcut
+
+Modifications made by Emanuel Czirai are released under UNLICENSE.
+See the LICENSE file for anything that I didn't touch.
+
