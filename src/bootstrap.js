@@ -56,8 +56,8 @@ let Dcqs = {
     set: function(window) { //disable keys
         var shortcut1 = window.document.getElementById("key_quitApplication"); //Ctrl+Q
         var shortcut2 = window.document.getElementById("key_closeWindow"); //Ctrl+Shift+W
-        var shortcut3 = window.document.getElementById("key_search"); //Ctrl+J
-        var shortcut4 = window.document.getElementById("key_search2"); //Ctrl+K
+        var shortcut3 = window.document.getElementById("key_search"); //Ctrl+K
+        var shortcut4 = window.document.getElementById("key_search2"); //Ctrl+J
 
         if (shortcut1)
             shortcut1.setAttribute("disabled", "true");
@@ -74,6 +74,7 @@ let Dcqs = {
         var shortcut2 = window.document.getElementById("key_closeWindow"); //Ctrl+Shift+W
         var shortcut3 = window.document.getElementById("key_search"); //Ctrl+J
         var shortcut4 = window.document.getElementById("key_search2"); //Ctrl+K
+
         if (shortcut1)
             shortcut1.setAttribute("disabled", "false");
         if (shortcut2)
