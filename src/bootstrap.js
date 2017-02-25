@@ -54,22 +54,34 @@ let Dcqs = {
     },
 
     set: function(window) { //disable keys
-        var shortcut = window.document.getElementById("key_quitApplication"); //Ctrl+Q
+        var shortcut1 = window.document.getElementById("key_quitApplication"); //Ctrl+Q
         var shortcut2 = window.document.getElementById("key_closeWindow"); //Ctrl+Shift+W
+        var shortcut3 = window.document.getElementById("key_search"); //Ctrl+J
+        var shortcut4 = window.document.getElementById("key_search2"); //Ctrl+K
 
-        if (shortcut)
-            shortcut.setAttribute("disabled", "true");
+        if (shortcut1)
+            shortcut1.setAttribute("disabled", "true");
         if (shortcut2)
             shortcut2.setAttribute("disabled", "true");
+        if (shortcut3)
+            shortcut3.setAttribute("disabled", "true");
+        if (shortcut4)
+            shortcut4.setAttribute("disabled", "true");
     },
 
     unset: function(window) { //enable keys
-        var shortcut = window.document.getElementById("key_quitApplication"); //Ctrl+Q
+        var shortcut1 = window.document.getElementById("key_quitApplication"); //Ctrl+Q
         var shortcut2 = window.document.getElementById("key_closeWindow"); //Ctrl+Shift+W
-        if (shortcut)
-            shortcut.setAttribute("disabled", "false");
+        var shortcut3 = window.document.getElementById("key_search"); //Ctrl+J
+        var shortcut4 = window.document.getElementById("key_search2"); //Ctrl+K
+        if (shortcut1)
+            shortcut1.setAttribute("disabled", "false");
         if (shortcut2)
             shortcut2.setAttribute("disabled", "false");
+        if (shortcut3)
+            shortcut3.setAttribute("disabled", "false");
+        if (shortcut4)
+            shortcut4.setAttribute("disabled", "false");
     },
 
     observe: function(subject, topic, data) {
